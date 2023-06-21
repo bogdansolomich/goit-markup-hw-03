@@ -149,6 +149,7 @@ img {
   color: var(--hero-color);
   line-height: 1.07;
   letter-spacing: 0.02em;
+  max-width: 496px;
 }
 
 .features-section {
@@ -184,6 +185,8 @@ img {
   height: 56px;
   border-radius: 4px;
   margin-top: 48px;
+  min-width: 169px;
+  border: none;
 }
 
 .button-style:hover,
@@ -259,6 +262,7 @@ img {
 .tabs-portfolio:focus {
   background-color: var(--color-hover);
   color: var(--hero-color);
+  border: 1px solid transparent;
 }
 
 .portfolio-plitka {
