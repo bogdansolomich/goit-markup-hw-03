@@ -82,11 +82,7 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--logo-color);
-  display: flex;
-  align-items: center;
-  margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .nav-list {
@@ -101,6 +97,7 @@ body {
   line-height: 1.5;
   padding-top: 24px;
   padding-bottom: 24px;
+  display: block;
 }
 
 .nav-link:hover,
@@ -117,7 +114,7 @@ img {
   color: var(--color-body);
   letter-spacing: 0.02em;
   line-height: 1.5;
-  display: flex;
+  display: block;
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -138,10 +135,6 @@ img {
   gap: 40px;
 }
 
-.contacts-item {
-  margin-right: 40px;
-}
-
 .hero {
   font-weight: 700;
   font-size: 56px;
@@ -150,6 +143,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   max-width: 496px;
+  margin: 0 auto;
 }
 
 .features-section {
@@ -169,6 +163,10 @@ img {
   background-color: var(--span-color);
   padding: 100px 0;
 }
+
+.footer-bg .link {
+    margin-bottom: 16px;
+    }
 
 .button-style {
   background: var(--logo-color);
